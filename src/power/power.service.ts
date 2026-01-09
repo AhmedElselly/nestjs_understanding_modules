@@ -4,5 +4,6 @@ import { Injectable } from '@nestjs/common';
 export class PowerService {
   supplyPower(watts: number) {
     console.log({ watts });
+    return { watts };
   }
 }
